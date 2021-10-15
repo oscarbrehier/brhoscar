@@ -20,4 +20,9 @@
 .navRight a {
     margin: 0 10px;
     font-size: 15px;
+    color: #636e72;
+}
+
+.navRight a:hover {
+    color: black;
 }
