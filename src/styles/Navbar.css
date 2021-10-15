@@ -1,0 +1,14 @@
+@import 'index.css';
+
+.container {
+    height: 18vh;
+    width: 100%;
+    background-color: red;
+}
+
+.navLeft,
+.navRight {
+    height: 10px;
+    background-color: green;
+    width: 100px;
+}
