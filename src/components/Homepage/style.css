@@ -1,0 +1,27 @@
+@import "../../styles/index.css";
+
+.hContainer {
+    margin-left: 10vw;
+    margin-top: 12vh;
+}
+
+.hContainer__wrapper p {
+    margin-top: 20px;
+}
+
+.hContainer__wrapper p:nth-child(2) {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6.5vh;
+    margin-left: -3px;
+}
+
+.hContainer__wrapper p:nth-child(3) {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0984e3
+}
+
+.hContainer__wrapper p:nth-child(4) {
+
+}

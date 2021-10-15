@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { data } from '../data/user-data';
-import '../styles/Navbar.css';
+import { data } from '../../data/user-data';
+import './style.css';
 
 export default function Navbar() {
 

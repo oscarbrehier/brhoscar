@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Homepage from "./components/Homepage";
-import About from "./components/About";
+import Navbar from "./components/Navbar/Navbar";
+import Homepage from "./components/Homepage/Homepage";
 
 function App() {
 
@@ -17,7 +16,7 @@ function App() {
                     <Homepage/>
                 </Route>
                 <Route path='/about'>
-                    <About/>
+
                 </Route>
             </Switch>
 

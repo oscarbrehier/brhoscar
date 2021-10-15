@@ -16,6 +16,14 @@ a {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
 .align-center {
     align-items: center;
 }
@@ -68,16 +76,29 @@ a {
     width: auto;
 }
 
+.red {
+    background-color: red;
+}
 
+.green {
+    background-color: green;
+}
 
+.blue {
+    background-color: blue;
+}
 
+.textAlign-center {
+    text-align: center;
+}
 
+.uppercase {
+    text-transform: uppercase;
+}
 
-
-
-
-
-
+.capitalize {
+    text-transform: capitalize;
+}
 
 
 
