@@ -1,14 +1,23 @@
 @import 'index.css';
 
 .container {
-    height: 18vh;
+    height: 5vh;
     width: 100%;
-    background-color: red;
+    background-color: ;
+    margin-top: 10vh;
 }
 
 .navLeft,
 .navRight {
-    height: 10px;
-    background-color: green;
-    width: 100px;
+    margin: 0 10vw;
+}
+
+.navLeft a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navRight a {
+    margin: 0 10px;
+    font-size: 15px;
 }
