@@ -16,7 +16,13 @@ function App() {
                     <Route path='/' exact>
                         <Homepage/>
                     </Route>
+                    <Route path='/work'>
+
+                    </Route>
                     <Route path='/about'>
+
+                    </Route>
+                    <Route path='/contact'>
 
                     </Route>
                     <Route path='/test'>
