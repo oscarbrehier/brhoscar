@@ -1,29 +1,32 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
-import Homepage from "./components/Homepage/Homepage";
+import Homepage from "./pages/Homepage/index";
+import Test from './pages/PreCommit/index';
 
 function App() {
 
-  return (
+    return (
 
-    <Router>
-        <div className="App">
-            <Navbar />
+        <Router>
+            <div className="App">
+                <Navbar />
 
-            <Switch>
-                <Route path='/' exact>
-                    <Homepage/>
-                </Route>
-                <Route path='/about'>
+                <Switch>
+                    <Route path='/' exact>
+                        <Homepage/>
+                    </Route>
+                    <Route path='/about'>
 
-                </Route>
-            </Switch>
+                    </Route>
+                    <Route path='/test'>
+                        <Test/>
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
 
-        </div>
-    </Router>
-
-  );
+    );
 
 }
 

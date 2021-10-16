@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from '../../data/user-data';
 import './style.css';
 
 export default function Homepage() {
