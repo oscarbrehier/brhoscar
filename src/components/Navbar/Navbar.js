@@ -14,9 +14,9 @@ export default function Navbar() {
                 </a>
             </div>
             <div className='navRight absolute right bottom w-auto h-auto'>
-                <Link to="/">Work</Link>
+                <Link to="/work">Work</Link>
                 <Link to="/about">About</Link>
-                <Link href="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
 
