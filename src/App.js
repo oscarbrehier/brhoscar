@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/index";
+import Admin from "./pages/Admin";
 import Test from './pages/PreCommit/index';
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
                     </Route>
                     <Route path='/test'>
                         <Test/>
+                    </Route>
+                    <Route path="/admin">
+                        <Admin/>
                     </Route>
                 </Switch>
             </div>

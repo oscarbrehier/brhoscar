@@ -1,0 +1,10 @@
+@import "../../styles/index.css";
+
+.aContainer {
+    height: 70vh;
+}
+
+.aContainer__wrapper {
+    height: 40vh;
+    width: 30vh;
+}
