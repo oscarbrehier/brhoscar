@@ -12,6 +12,10 @@ a {
     color: black;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .flex {
     display: flex;
 }
@@ -100,8 +104,9 @@ a {
     text-transform: capitalize;
 }
 
-
-
-
-
-
+.title {
+    margin-top: 10vh;
+    height: 10vh;
+    font-weight: 700;
+    font-size: 5vh;
+}

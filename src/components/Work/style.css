@@ -1,0 +1,7 @@
+@import "../../styles/index.css";
+
+.wpContainer,
+.wpContainer img {
+    height: 40vh;
+    width: 40vh;
+}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/index";
 import Admin from "./pages/Admin";
+import Work from './pages/Work';
 import Test from './pages/PreCommit/index';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
                         <Homepage/>
                     </Route>
                     <Route path='/work'>
-
+                        <Work/>
                     </Route>
                     <Route path='/about'>
 
@@ -33,6 +34,7 @@ function App() {
                         <Admin/>
                     </Route>
                 </Switch>
+
             </div>
         </Router>
 

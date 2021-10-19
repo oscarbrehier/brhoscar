@@ -1,0 +1,12 @@
+@import "../../styles/index.css";
+
+.wContainer__wrapper {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.wContainer__wrapper__works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh;
+}
