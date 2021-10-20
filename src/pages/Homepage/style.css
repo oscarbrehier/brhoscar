@@ -1,27 +1,26 @@
 @import "../../styles/index.css";
 
 .hContainer {
-    margin-left: 10vw;
-    margin-top: 12vh;
+    margin-top: 25vh;
 }
 
-.hContainer__wrapper p {
-    margin-top: 20px;
+.hContainer__wrapper {
+    margin: 0 15vw;
 }
 
-.hContainer__wrapper p:nth-child(2) {
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: 6.5vh;
+.hContainer__wrapper--h1 {
     margin-left: -3px;
-}
-
-.hContainer__wrapper p:nth-child(3) {
     font-weight: 700;
-    font-size: 18px;
-    color: #0984e3
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: -0.936px;
 }
 
-.hContainer__wrapper p:nth-child(4) {
-
+.hContainer__wrapper--p {
+    color: #797f85;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.24px;
+    margin-top: 10px;
 }
+

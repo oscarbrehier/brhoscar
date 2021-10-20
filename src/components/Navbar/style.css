@@ -3,13 +3,12 @@
 .container {
     height: 5vh;
     width: 100%;
-
     margin-top: 10vh;
 }
 
 .navLeft,
 .navRight {
-    margin: 0 10vw;
+    margin: 0 15vw;
 }
 
 .navLeft a {
@@ -20,7 +19,7 @@
 .navRight a {
     margin: 0 10px;
     font-size: 15px;
-    color: #636e72;
+    color: #797f85;
 }
 
 .navRight a:hover {

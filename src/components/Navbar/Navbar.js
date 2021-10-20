@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import { data } from '../../data/user-data';
 import './style.css';
+import './phone-view.css';
 
 export default function Navbar() {
 
