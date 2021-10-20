@@ -12,6 +12,7 @@
 .navLeft,
 .navRight {
     margin: 0 15vw;
+    z-index: 10;
 }
 
 .navLeft a {
