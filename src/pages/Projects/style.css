@@ -1,0 +1,18 @@
+@import "../../styles/index.css";
+
+.pContainer {
+
+}
+
+.pContainer__wrapper {
+    margin: 20vh 15vw;
+}
+
+.pContainer__wrapper__pageTitle {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pContainer__wrapper__projects {
+    margin-top: 2vh;
+}

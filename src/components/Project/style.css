@@ -1,0 +1,45 @@
+@import "../../styles/index.css";
+
+.wpContainer {
+    width: 100%;
+    margin-top: 5vh;
+    border: 1px solid black;
+}
+
+.wpContainer__wrapper- {
+    width: inherit;
+    height: inherit;
+    margin: 2vh 3vh;
+}
+
+.wpContainer--title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wpContainer--description {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.wpContainer--languages {
+    margin-top: 10px;
+}
+
+.wpContainer--languages,
+.wpContainer--github {
+    font-weight: 500;
+    line-height: 2.2vh;
+    color: #0984e3;
+}
+
+
+
+
+
+
+
+
+
+
+

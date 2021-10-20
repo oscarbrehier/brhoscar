@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1000px) {
+
+    .pContainer__wrapper {
+        margin: 0 15vw;
+    }
+
+    .pContainer__wrapper__pageTitle {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pContainer__wrapper__projects {
+        margin-bottom: 20vh;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+
+}

@@ -4,7 +4,7 @@ import './styles/index.css';
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/index";
 import Admin from "./pages/Admin";
-import Work from './pages/Work';
+import Projects from './pages/Projects';
 import Test from './pages/PreCommit/index';
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
                     <Route path='/' exact>
                         <Homepage/>
                     </Route>
-                    <Route path='/work'>
-                        <Work/>
+                    <Route path='/projects'>
+                        <Projects/>
                     </Route>
                     <Route path='/about'>
 
