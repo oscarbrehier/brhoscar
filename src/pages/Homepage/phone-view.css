@@ -8,6 +8,10 @@
 
 @media only screen and (max-width: 480px) {
 
+    .hContainer {
+        justify-content: center;
+    }
+
     .hContainer__wrapper--h1 {
         margin-left: -3px;
         font-weight: 700;

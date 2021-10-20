@@ -1,8 +1,11 @@
 @import "../../styles/index.css";
 
 .container {
-    height: 5vh;
+    height: 100vh;
     width: 100%;
+}
+
+.nav__wrapper {
     margin-top: 10vh;
 }
 

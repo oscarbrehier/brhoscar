@@ -1,7 +1,8 @@
 @import "../../styles/index.css";
 
 .hContainer {
-    margin-top: 25vh;
+    /*margin-top: 25vh; */
+    height: 100vh;
 }
 
 .hContainer__wrapper {

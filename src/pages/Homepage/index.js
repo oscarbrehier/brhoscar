@@ -6,7 +6,7 @@ export default function Homepage() {
 
     return (
 
-        <div className='hContainer'>
+        <div className='hContainer relative flex align-center'>
             <div className='hContainer__wrapper h-auto w-auto column'>
                 <div className='hContainer__wrapper--h1'>
                     <h1>Oscar</h1>
