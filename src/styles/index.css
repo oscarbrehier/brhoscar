@@ -113,6 +113,10 @@ a {
     text-transform: capitalize;
 }
 
+.lowercase {
+    text-transform: lowercase;
+}
+
 .title {
     margin-top: 10vh;
     height: 10vh;

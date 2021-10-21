@@ -1,11 +1,11 @@
 @import "../../styles/index.css";
 
 .pContainer {
-
+    height: 100vh;
 }
 
 .pContainer__wrapper {
-    margin: 20vh 15vw;
+    margin: 0 15vw;
 }
 
 .pContainer__wrapper__pageTitle {
@@ -15,4 +15,7 @@
 
 .pContainer__wrapper__projects {
     margin-top: 2vh;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(2, 0.2fr);*/
+    /*gap: 5vh;*/
 }

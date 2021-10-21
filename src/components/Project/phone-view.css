@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1000px) {
+
+    .wpContainer {
+        max-height: 10vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+
+
+}

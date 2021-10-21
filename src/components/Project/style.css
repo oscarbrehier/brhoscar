@@ -2,43 +2,32 @@
 
 .wpContainer {
     width: 100%;
-    margin-top: 5vh;
-    border: 1px solid black;
+    max-height: 2vh;
+    margin-bottom: 1vh;
 }
 
-.wpContainer__wrapper- {
-    width: inherit;
-    height: inherit;
-    margin: 2vh 3vh;
-}
+/*.wpContainer--title {*/
+/*    color: #0984e3;*/
+/*    text-decoration: underline;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.wpContainer--description {*/
+/*    margin-left: 5px;*/
+/*    font-weight: 400;*/
+/*    font-size: 18px;*/
+/*}*/
 
 .wpContainer--title {
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.wpContainer--description {
-    margin-top: 5px;
+    color: #0984e3;
+    text-decoration: underline;
     font-size: 18px;
 }
 
-.wpContainer--languages {
-    margin-top: 10px;
+.wpContainer--description {
+    margin-left: 5px;
+    font-size: 18px;
 }
-
-.wpContainer--languages,
-.wpContainer--github {
-    font-weight: 500;
-    line-height: 2.2vh;
-    color: #0984e3;
-}
-
-
-
-
-
-
-
 
 
 

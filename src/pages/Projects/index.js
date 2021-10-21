@@ -39,10 +39,10 @@ export default function Projects() {
 
     return (
 
-        <div className='pContainer w-100 absolute'>
+        <div className='pContainer w-100 absolute flex align-center'>
             <div className='pContainer__wrapper'>
                 <div className='pContainer__wrapper__pageTitle'>Projects</div>
-                <div className='pContainer__wrapper__projects h-auto flex column'>
+                <div className='pContainer__wrapper__projects h-auto flex align-center justify-center column'>
                     <RenderResult/>
                 </div>
             </div>
