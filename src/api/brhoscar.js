@@ -7,7 +7,7 @@ export const getPosts = async () => {
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            token: process.env.token
+            token: process.env.token || process.env.REACT_APP_TOKEN
         }
     });
 
