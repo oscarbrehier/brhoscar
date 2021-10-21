@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import config from '../../config';
 import Project from "../../components/Project/Project";
 import './style.css';
 import './prone-view.css';
