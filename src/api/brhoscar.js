@@ -1,7 +1,7 @@
 import axios from "axios";
 import config from "../config";
 
-const url = 'http://localhost:5000/post';
+const url = 'https://brhoscar-api.herokuapp.com/post';
 
 export const postPost = (body) => axios({
     url: url,
@@ -9,3 +9,18 @@ export const postPost = (body) => axios({
     headers: config.brhoscar.token,
     data: body
 });
+
+
+export const getPosts = async () => {
+
+    const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            token: config.brhoscar.token
+        }
+    });
+
+    const jsonResponse = await response.json();
+    return jsonResponse;
+
+}
