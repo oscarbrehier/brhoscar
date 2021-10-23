@@ -13,3 +13,11 @@
 .w-auto {
     width: auto;
 }
+
+.h-inherit {
+    height: inherit;
+}
+
+.w-inherit {
+    width: inherit;
+}

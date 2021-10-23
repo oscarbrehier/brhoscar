@@ -1,0 +1,22 @@
+@import "../../styles/index.css";
+
+.hAbout__wrapper {
+    margin: 10vh 15vw;
+}
+
+.hAbout--title {
+    font-size: 8vh;
+    letter-spacing: -3px;
+    margin-left: -5px;
+}
+
+.hAbout--subtitle {
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.hAbout--paragraph {
+    margin-top: 2vh;
+    width: 80%;
+    font-size: 2vh;
+}
