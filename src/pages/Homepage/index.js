@@ -36,7 +36,7 @@ export default function Homepage() {
                             I have 3+ years of experience working on various projects and still looking forward to learning more.
                             I spend most of my time coding scripts and building websites.
                             Through this, I have learned self-taught web development, graphic design and some video editing.
-                            Current coding languages are JavaScript, HTML, CSS and Python.
+                            Current coding languages I know and use are JavaScript, HTML, CSS and Python.
                         </p>
                     </div>
                 </div>
