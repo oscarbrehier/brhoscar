@@ -18,7 +18,7 @@ export default function Homepage() {
                         <h1>Bréhier</h1>
                     </div>
                     <div className='hContainer__wrapper--p'>
-                        <p className='black'>
+                        <p className='tBlack'>
                             I'm a self taught front-end web developer
                             <br/>
                             and designer

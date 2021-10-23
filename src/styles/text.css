@@ -1,0 +1,30 @@
+.textAlign-center {
+    text-align: center;
+}
+
+.textAlign-right {
+    text-align: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.title {
+    margin-top: 10vh;
+    height: 10vh;
+    font-weight: 700;
+    font-size: 5vh;
+}

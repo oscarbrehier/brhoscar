@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./pages/Homepage/index";
 import Admin from "./pages/Admin";
 import Projects from './pages/Projects';
+import Footer from "./components/Footer/Footer";
 import Test from './pages/PreCommit/index';
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
                         <Admin/>
                     </Route>
                 </Switch>
+
+                <Footer/>
 
             </div>
         </Router>

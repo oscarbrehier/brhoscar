@@ -1,0 +1,16 @@
+@import '../../styles/index.css';
+
+.fContainer__wrapper {
+    margin: 5vh 0;
+}
+
+.fContainer__wrapper--left,
+.fContainer__wrapper--right {
+    margin: 0 15vw;
+    font-size: 25px;
+}
+
+.fContainer__wrapper--left a:hover,
+.fContainer__wrapper--right > p > a:hover {
+    text-decoration: underline;
+}

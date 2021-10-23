@@ -1,0 +1,55 @@
+.tRed {
+    color: red;
+}
+
+.tGreen {
+    color: green;
+}
+
+.tBlue {
+    color: blue;
+}
+
+.tYellow {
+    color: yellow;
+}
+
+.tBlack {
+    color: black;
+}
+
+.tWhite {
+    color: white;
+}
+
+.bRed {
+    background-color: red;
+}
+
+.bGreen {
+    background-color: green;
+}
+
+.bBlue {
+    background-color: blue;
+}
+
+.bYellow {
+    background-color: yellow;
+}
+
+.bBlack {
+    background-color: black;
+}
+
+.bWhite {
+    background-color: white;
+}
+
+.ctBlue {
+    color: var(--blue);
+}
+
+.cbBlue {
+    background-color: var(--blue);
+}
