@@ -7,15 +7,15 @@ export default function Navbar({mode}) {
 
     // color <light|gray|dark>
 
-    let color;
+    let color = 'black';
 
-    if(mode === 'gray' || !mode) {
-        color = '#797f85';
-    } else if(mode === 'dark') {
-        color = 'black';
-    } else if(mode === 'white') {
-        color = 'white';
-    }
+    // if(mode === 'gray' || !mode) {
+    //     color = '#797f85';
+    // } else if(mode === 'dark') {
+    //     color = 'black';
+    // } else if(mode === 'white') {
+    //     color = 'white';
+    // }
 
     return (
 

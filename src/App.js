@@ -14,21 +14,18 @@ function App() {
 
         <Router>
             <div className="App relative">
-                {/*<Navbar />*/}
+                <Navbar />
 
                 <Switch>
                     <Route path='/' exact>
                         <Homepage/>
                     </Route>
                     <Route path='/projects'>
-                        <Navbar mode={'gray'}/>
                         <Projects/>
                     </Route>
                     <Route path='/about'>
-                        <Navbar mode={'gray'}/>
                     </Route>
                     <Route path='/contact'>
-                        <Navbar mode={'gray'}/>
                     </Route>
                     <Route path='/test'>
                         <Test/>

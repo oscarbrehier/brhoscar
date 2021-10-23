@@ -9,9 +9,6 @@ export default function Homepage() {
     return (
 
         <div>
-
-            <Navbar mode={'dark'}/>
-
             <div className='hContainer relative flex align-center'>
                 <div className='hContainer__wrapper h-auto w-auto column'>
                     <div className='hContainer__wrapper--h1'>
@@ -42,8 +39,7 @@ export default function Homepage() {
                 </div>
             </div>
         </div>
-
-
+        
     )
 
 };

@@ -1,8 +1,12 @@
 import React, {useEffect, useState} from "react";
+
+
+import Landing from "../../components/Landing/Landing";
 import Project from "../../components/Project/Project";
+import {getPosts} from "../../api/brhoscar";
+
 import './style.css';
 import './prone-view.css';
-import {getPosts} from "../../api/brhoscar";
 
 export default function Projects() {
 
@@ -37,15 +41,12 @@ export default function Projects() {
 
     }
 
+    // <RenderResult/>
+
     return (
 
-        <div className='pContainer w-100 absolute flex align-center'>
-            <div className='pContainer__wrapper'>
-                <div className='pContainer__wrapper__pageTitle'>Projects</div>
-                <div className='pContainer__wrapper__projects h-auto flex align-center justify-center column'>
-                    <RenderResult/>
-                </div>
-            </div>
+        <div>
+            <Landing pageName='Projects' image='background02'/>
         </div>
 
     )
