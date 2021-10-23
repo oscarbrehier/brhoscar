@@ -12,9 +12,9 @@ a {
     color: black;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+/*::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
 
 ::selection {
     background: black;
@@ -99,6 +99,14 @@ a {
 
 .yellow {
     background-color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
 }
 
 .textAlign-center {

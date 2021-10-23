@@ -3,6 +3,10 @@
 .hContainer {
     /*margin-top: 25vh; */
     height: 100vh;
+    background: url("../../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hContainer__wrapper {
