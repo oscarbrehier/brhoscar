@@ -2,10 +2,13 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './styles/index.css';
 
 import Navbar from "./components/Navbar/Navbar";
-import Homepage from "./pages/Homepage/index";
-import Admin from "./pages/Admin";
-import Projects from './pages/Projects';
 import Footer from "./components/Footer/Footer";
+
+import Homepage from "./pages/Homepage/index";
+import Projects from './pages/Projects';
+import About from "./pages/About";
+
+import Admin from "./pages/Admin";
 import Test from './pages/PreCommit/index';
 
 function App() {
@@ -24,6 +27,7 @@ function App() {
                         <Projects/>
                     </Route>
                     <Route path='/about'>
+                        <About/>
                     </Route>
                     <Route path='/contact'>
                     </Route>

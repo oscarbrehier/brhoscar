@@ -1,5 +1,3 @@
-import axios from "axios";
-
 const url = 'https://brhoscar-api.herokuapp.com/post';
 
 export const getPosts = async () => {
