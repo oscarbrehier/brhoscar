@@ -6,7 +6,7 @@ import Project from "../../components/Project/Project";
 import {getPosts} from "../../api/brhoscar";
 
 import './style.css';
-import './prone-view.css';
+import './phone-view.css';
 
 export default function Projects() {
 
@@ -47,6 +47,9 @@ export default function Projects() {
 
         <div>
             <Landing pageName='Projects' image='background02'/>
+            <div className='pContainer__wrapper__projects'>
+                <RenderResult/>
+            </div>
         </div>
 
     )
