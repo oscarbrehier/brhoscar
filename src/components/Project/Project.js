@@ -1,13 +1,13 @@
 import './style.css';
 import './phone-view.css';
 
-export default function Project(title, description, languages, url) {
+export default function Project(title, description, languages, url, count) {
 
     return (
 
         <div className='wpContainer flex'>
             <div className='wpContainer--number flex align-center justify-center w700'>
-                001
+                { count }
             </div>
             <div className='wpContainer__info flex column justify-center '>
                 <div className='wpContainer__info--title w700 capitalize'>

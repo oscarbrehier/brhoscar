@@ -17,8 +17,7 @@ export default function Projects() {
         useEffect(() => {
 
             getPosts().then(result => {
-                console.log(result)
-                setRes(result)
+                setRes(result);
             });
 
         }, []);
@@ -29,10 +28,12 @@ export default function Projects() {
             let title = res[i].name;
             let description = res[i].description;
             let languages = res[i].languages;
-            console.log(languages);
             let url = res[i].githubURL;
+            let count = i + 1;
 
-            elements.push(Project(title, description, languages, url));
+            if(count < 10) count = `00${count}`;
+
+            elements.push(Project(title, description, languages, url, count));
         }
 
         return (
