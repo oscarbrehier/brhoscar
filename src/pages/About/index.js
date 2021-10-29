@@ -8,7 +8,7 @@ export default function About() {
     return (
 
         <div>
-            <Landing pageName='About' image='background03'/>
+            <Landing pageName='About' image='background02'/>
             <div className='hAbout h-auto'>
                 <div className='hAbout__wrapper h-inherit'>
                     <div>

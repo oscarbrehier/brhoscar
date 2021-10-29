@@ -47,7 +47,7 @@ export default function Projects() {
     return (
 
         <div>
-            <Landing pageName='Projects' image='background02'/>
+            <Landing pageName='Projects' image='background04'/>
             <div className='pContainer__wrapper__projects'>
                 <RenderResult/>
             </div>
