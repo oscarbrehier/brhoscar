@@ -8,9 +8,6 @@ import Homepage from "./pages/Homepage/index";
 import Projects from './pages/Projects';
 import About from "./pages/About";
 
-import Admin from "./pages/Admin";
-import Test from './pages/PreCommit/index';
-
 function App() {
 
     return (
@@ -31,11 +28,8 @@ function App() {
                     </Route>
                     <Route path='/contact'>
                     </Route>
-                    <Route path='/test'>
-                        <Test/>
-                    </Route>
-                    <Route path="/admin">
-                        <Admin/>
+                    <Route path='/trial'>
+
                     </Route>
                 </Switch>
 

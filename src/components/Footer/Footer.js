@@ -6,7 +6,7 @@ import './phone-view.css'
 export default function Footer() {
 
     return (
-        <div className='absolute w-100 h-auto'>
+        <div className='relative w-100 h-auto'>
             <div className='fContainer__wrapper flex justify-between w700'>
                 <div className='fContainer__wrapper--left'>
                     @ 2021 -

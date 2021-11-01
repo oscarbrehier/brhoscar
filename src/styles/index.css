@@ -11,15 +11,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: #3c40c6;
 }
 
 :root {
     --blue: #0984e3;
+    --bluer: #3c40c6;
+    --bluer--highlight: #232795;
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 /*::-webkit-scrollbar {*/

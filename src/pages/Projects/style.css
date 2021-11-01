@@ -1,7 +1,7 @@
 @import "../../styles/index.css";
 
 .pContainer__wrapper__projects {
-    margin: 10vh 15vw;
+    margin: 0 15vw;
     /*display: grid;*/
     /*grid-template-columns: repeat(2, 0fr);*/
     /*gap: 5vh;*/

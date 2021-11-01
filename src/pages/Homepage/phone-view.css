@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1420px) {
 
     .hContainer__wrapper {
         margin: 0 5vw;
@@ -8,25 +8,37 @@
 
 @media only screen and (max-width: 480px) {
 
-    .hContainer {
-        justify-content: center;
-    }
-
-    .hContainer__wrapper--h1 {
-        margin-left: -3px;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 72px;
-        letter-spacing: -0.936px;
+    .hContainer__wrapper {
         text-align: center;
     }
 
-    .hContainer__wrapper--p {
-        color: #797f85;
-        font-weight: 500;
-        font-size: 15px;
-        letter-spacing: -0.24px;
-        text-align: center;
+    .hContainer__wrapper-1 {
+        font-size: 6vh;
     }
+
+    .hContainer__wrapper--paragraph {
+        width: 100%;
+    }
+
+    /*.hContainer {*/
+    /*    justify-content: center;*/
+    /*}*/
+
+    /*.hContainer__wrapper--h1 {*/
+    /*    margin-left: -3px;*/
+    /*    font-weight: 700;*/
+    /*    font-size: 35px;*/
+    /*    line-height: 72px;*/
+    /*    letter-spacing: -0.936px;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /*.hContainer__wrapper--p {*/
+    /*    color: #797f85;*/
+    /*    font-weight: 500;*/
+    /*    font-size: 15px;*/
+    /*    letter-spacing: -0.24px;*/
+    /*    text-align: center;*/
+    /*}*/
 
 }

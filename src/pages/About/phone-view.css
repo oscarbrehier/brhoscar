@@ -1,13 +1,11 @@
 @media only screen and (max-width: 1000px) {
 
+    .aContainer__wrapper {
+        margin: 0 5vw;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
-
-    .hAbout--subtitle,
-    .hAbout--paragraph{
-        font-size: 2.5vh;
-    }
-
 
 }

@@ -16,7 +16,6 @@
 }
 
 .navLeft a {
-    font-weight: 700;
     font-size: 18px;
 }
 
@@ -26,5 +25,5 @@
 }
 
 .navRight a:hover {
-    color: black;
+    color: var(--bluer--highlight);
 }
