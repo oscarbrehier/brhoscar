@@ -1,0 +1,42 @@
+@import "../../styles/index.css";
+
+@media only screen and (max-width: 1000px) {
+
+    .navigation--wrapper {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .navigation--left {
+        margin-left: 4vw;
+    }
+
+    .navigation--links {
+        display: none;
+    }
+
+    .navigation--hamburger {
+        height: 8vh;
+        display: flex;
+        margin-right: 1vw;
+        font-size: 5vw;
+    }
+
+    .navigation--phone {
+        background-color: var(--background-color);
+    }
+
+    .navigation--phone div {
+        height: 5vh;
+        padding-left: 4vw;
+        font-size: 20px;
+    }
+
+    .navigation--phone--links {
+        margin-top: -15vh;
+    }
+
+}

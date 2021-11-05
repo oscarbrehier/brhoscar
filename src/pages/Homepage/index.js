@@ -7,24 +7,9 @@ export default function Homepage() {
     return (
 
        <div>
-           <div className='h-100 relative flex'>
-               <div className='hContainer__wrapper-1 uppercase w900 flex align-center justify-center '>
-                   a full stack developer and designer
-               </div>
-           </div>
-           <div className='hQuestions h-auto relative flex'>
-                <div className='hContainer__wrapper-2'>
-                    <div className='hContainer__wrapper--question w600'>
-                        What is a full stack developer?
-                    </div>
-                    <div className='hContainer__wrapper--paragraph'>
-                        A full stack developer is an engineer who can handle both back-End and front-End.
-                        Meaning someone who works with server side of the application as well as the client side.
-                        Front-end deals with interface, developer the navigation and visuals and thus focus on user experience.
-                        On the otherside back-end deals with the server and database of the application in order to allow the front end development to exist.
-                    </div>
-                </div>
-           </div>
+           {/*<div className='h-100 container relative'>*/}
+
+           {/*</div>*/}
        </div>
 
     )

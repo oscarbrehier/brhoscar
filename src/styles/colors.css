@@ -46,29 +46,5 @@
     background-color: white;
 }
 
-.ctBlue {
-    color: var(--blue);
-}
-
-.cbBlue {
-    background-color: var(--blue);
-}
-
-.tBluer {
-    color: var(--bluer);
-}
-
-.bBluer {
-    background-color: var(--blue)
-}
-
-.tBluer-highlight {
-    color: var(--bluer--highlight);
-}
-
-.bBluer-hightlight {
-    background-color: var(--bluer--highlight);
-}
-
 
 

@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './styles/index.css';
 
-import Navbar from "./components/Navbar/Navbar";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer/Footer";
 
 import Homepage from "./pages/Homepage/index";
 import Projects from './pages/Projects';
 import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
         <Router>
             <div className="App relative">
-                <Navbar />
+                <Navigation/>
 
                 <Switch>
                     <Route path='/' exact>
@@ -28,12 +29,12 @@ function App() {
                     </Route>
                     <Route path='/contact'>
                     </Route>
-                    <Route path='/trial'>
-
+                    <Route path='/home'>
+                        <Home/>
                     </Route>
                 </Switch>
 
-                <Footer/>
+                {/*<Footer/>*/}
 
             </div>
         </Router>

@@ -1,25 +1,21 @@
 @import "../../styles/index.css";
 
-.hContainer__wrapper-1,
-.hContainer__wrapper-2 {
-    margin: 0 15vw;
+.homepage__heading {
+    width: 80%;
     line-height: 90%;
-}
-
-.hContainer__wrapper-1 {
     font-size: 10vh;
 }
 
-.hQuestions {
+.questions {
     margin: 15vh 0;
 }
 
-.hContainer__wrapper--question {
+.questions--title {
     font-size: 3vh;
     line-height: 100%;
 }
 
-.hContainer__wrapper--paragraph {
+.questions--paragraph {
     margin-top: 3vh;
     font-size: 2.5vh;
     width: 80%;

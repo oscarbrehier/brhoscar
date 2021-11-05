@@ -41,3 +41,21 @@
 .w900 {
     font-weight: 900;
 }
+
+/*@font-face {*/
+/*    font-family: 'Cinetype';*/
+/*    src: url("../fonts/Cinetype/GT-Cinetype-Regular.woff");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Bandeins';*/
+/*    src: url("../fonts/Bandeins/BandeinsSansVariableGX.woff2") format('woff2');*/
+/*    font-weight: 200 800;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Bandeins Bold';*/
+/*    src: url("../fonts/Bandeins/BandeinsStrangeSemiBoldExtendedHalf.woff2") format('woff2');*/
+/*    font-stretch: 0% 800%;*/
+/*    font-weight: 200 800;*/
+/*}*/

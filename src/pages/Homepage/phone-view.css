@@ -1,44 +1,28 @@
-@media only screen and (max-width: 1420px) {
+@media only screen and (min-width: 480px) {
 
-    .hContainer__wrapper-1 {
-        margin: 0 5vw;
+    .navigation--phone {
+        display: none;
     }
+
+}
+
+@media only screen and (max-width: 1420px) {
 
 }
 
 @media only screen and (max-width: 480px) {
 
-    .hContainer__wrapper-1 {
-        text-align: center;
+    .homepage__wrapper {
+        justify-content: center;
     }
 
-    .hContainer__wrapper-1 {
+    .homepage__heading {
+        text-align: center;
         font-size: 6vh;
     }
 
     .hContainer__wrapper--paragraph {
         width: 100%;
     }
-
-    /*.hContainer {*/
-    /*    justify-content: center;*/
-    /*}*/
-
-    /*.hContainer__wrapper--h1 {*/
-    /*    margin-left: -3px;*/
-    /*    font-weight: 700;*/
-    /*    font-size: 35px;*/
-    /*    line-height: 72px;*/
-    /*    letter-spacing: -0.936px;*/
-    /*    text-align: center;*/
-    /*}*/
-
-    /*.hContainer__wrapper--p {*/
-    /*    color: #797f85;*/
-    /*    font-weight: 500;*/
-    /*    font-size: 15px;*/
-    /*    letter-spacing: -0.24px;*/
-    /*    text-align: center;*/
-    /*}*/
 
 }

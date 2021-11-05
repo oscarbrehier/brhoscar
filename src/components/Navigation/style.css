@@ -1,0 +1,26 @@
+@import "../../styles/index.css";
+
+.navigation {
+    height: 8vh;
+}
+
+.navigation--wrapper {
+    width: 70%;
+}
+
+.navigation--left {
+    margin-left: 3vw;
+}
+
+.navigation--right {
+    margin-right: 3vw;
+}
+
+.navigation--right div {
+    margin-left: 2vw;
+}
+
+.navigation--left,
+.navigation--right {
+    font-size: 18px;
+}

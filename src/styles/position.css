@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.fixed {
+    position: fixed;
+}
+
 .left {
     left: 0;
 }
