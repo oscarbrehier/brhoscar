@@ -7,9 +7,13 @@ export default function Homepage() {
     return (
 
        <div>
-           {/*<div className='h-100 container relative'>*/}
-
-           {/*</div>*/}
+           <div className='h-100 w-100 container relative flex align-center justify-center'>
+               <div className="wrapper h-100 w-inherit homepage__wrapper">
+                    <div className='homepage__description w400'>
+                        Full Stack Developer and Designer
+                    </div>
+               </div>
+           </div>
        </div>
 
     )

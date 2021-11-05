@@ -46,7 +46,7 @@ a {
 }
 
 .wrapper {
-    margin: 0 10vw;
+    margin-left: 3vw;
 }
 
 @media only screen and (max-width: 1420px) {

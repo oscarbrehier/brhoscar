@@ -1,28 +1,19 @@
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 1420px) {
 
-    .navigation--phone {
-        display: none;
+    .homepage__wrapper {
+        display: flex;
+        align-items: center;
     }
 
-}
-
-@media only screen and (max-width: 1420px) {
+    .homepage__description {
+        margin-top: 0;
+        font-size: 8vh;
+    }
 
 }
 
 @media only screen and (max-width: 480px) {
 
-    .homepage__wrapper {
-        justify-content: center;
-    }
 
-    .homepage__heading {
-        text-align: center;
-        font-size: 6vh;
-    }
-
-    .hContainer__wrapper--paragraph {
-        width: 100%;
-    }
 
 }

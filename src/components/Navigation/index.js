@@ -42,7 +42,7 @@ export default function Navigation() {
                     </div>
                 </div>
                 <div className={ !isOpen ? "none" : null } style={{height: '92vh', width: '100%'}}>
-                    <div className='navigation--phone h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
+                    <div className='navigation--phone absolute h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
                         <div className='navigation--phone--links h-auto w-auto'>
                             <div className="w-inherit flex justify-center">
                                 <Link to='/work'>work</Link>

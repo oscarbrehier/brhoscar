@@ -1,23 +1,8 @@
 @import "../../styles/index.css";
 
-.homepage__heading {
-    width: 80%;
-    line-height: 90%;
+.homepage__description {
     font-size: 10vh;
-}
-
-.questions {
-    margin: 15vh 0;
-}
-
-.questions--title {
-    font-size: 3vh;
-    line-height: 100%;
-}
-
-.questions--paragraph {
-    margin-top: 3vh;
-    font-size: 2.5vh;
-    width: 80%;
-    line-height: 100%;
+    width: 60%;
+    line-height: 90%;
+    margin-top: 75vh;
 }
