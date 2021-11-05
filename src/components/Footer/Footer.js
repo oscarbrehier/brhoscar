@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         <div className='relative w-100 h-auto'>
-            <div className='fContainer__wrapper flex justify-between w700'>
+            <div className='fContainer__wrapper flex justify-between'>
                 <div className='fContainer__wrapper--left'>
                     @ 2021 -
                     <br/>

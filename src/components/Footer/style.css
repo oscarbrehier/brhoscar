@@ -1,12 +1,12 @@
 @import '../../styles/index.css';
 
 .fContainer__wrapper {
-    margin: 5vh 0;
+    margin: 10vh 0;
 }
 
 .fContainer__wrapper--left,
 .fContainer__wrapper--right {
-    margin: 0 15vw;
+    margin: 0 3vw;
     font-size: 25px;
 }
 

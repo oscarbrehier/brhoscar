@@ -2,6 +2,11 @@
 
 @media only screen and (max-width: 1000px) {
 
+    .fContainer__wrapper--left,
+    .fContainer__wrapper--right {
+        margin: 0 5vw;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {

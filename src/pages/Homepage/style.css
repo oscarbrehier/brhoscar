@@ -6,3 +6,22 @@
     line-height: 90%;
     margin-top: 75vh;
 }
+
+.homepage__about--text {
+    margin-top: 15vh;
+    font-size: 30px;
+    width: 40%;
+}
+
+.homepage__question01--wrapper {
+    margin-top: 15vh;
+}
+
+.homepage--question01 {
+    font-size: 18px;
+}
+
+.homepage--response01 {
+    font-size: 25px;
+    width: 50%;
+}

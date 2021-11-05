@@ -8,12 +8,29 @@
     .homepage__description {
         margin-top: 0;
         font-size: 8vh;
+        position: absolute;
+        bottom: 3vh;
+    }
+
+    .homepage__about--text {
+        width: 70%;
     }
 
 }
 
 @media only screen and (max-width: 480px) {
 
+    .homepage__about--text {
+        width: 100%;
+    }
 
+    .homepage__question01--wrapper {
+        flex-direction: column;
+    }
+
+    .homepage--response01 {
+        margin-top: 8vh;
+        width: 100%;
+    }
 
 }

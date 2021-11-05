@@ -20,7 +20,7 @@ export default function Navigation() {
 
         <div className='absolute w-100 h-100'>
             <div className='navigation w-100 align-center'>
-                <div className='navigation--wrapper flex align-center justify-between h-inherit'>
+                <div className='navigation--wrapper w-100 flex align-center justify-between h-inherit'>
                     <div className='navigation--left capitalize'>
                         <Link to='/'>oscar bréhier.</Link>
                     </div>
