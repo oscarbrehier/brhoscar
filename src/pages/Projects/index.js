@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 
 
-import Landing from "../../components/Landing/Landing";
 import Project from "../../components/Project/Project";
 import {getPosts} from "../../api/brhoscar";
 

@@ -1,0 +1,10 @@
+@import '../../styles/index.css';
+
+.email__container {
+    height: 20vh;
+}
+
+.email__wrapper {
+    margin-top: 5vh;
+    font-size: 25px;
+}

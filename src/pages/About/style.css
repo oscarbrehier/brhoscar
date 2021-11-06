@@ -1,11 +1,5 @@
 @import "../../styles/index.css";
 
-.aContainer__wrapper {
-    margin: 0 15vw;
-}
-
-.catch {
-    font-size: 10vh;
-    width: 50%;
-    line-height: 90%;
+.about__about {
+    margin-top: 50vh;
 }

@@ -1,5 +1,8 @@
-@import '../../styles/index.css';
+@import "../../styles/index.css";
 
-.lTitle {
-    font-size: 5vh;
+.homepage__description {
+    font-size: 10vh;
+    width: 60%;
+    line-height: 90%;
+    margin-top: 75vh;
 }

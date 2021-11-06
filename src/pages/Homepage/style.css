@@ -1,12 +1,5 @@
 @import "../../styles/index.css";
 
-.homepage__description {
-    font-size: 10vh;
-    width: 60%;
-    line-height: 90%;
-    margin-top: 75vh;
-}
-
 .homepage__about--text {
     margin-top: 15vh;
     font-size: 30px;

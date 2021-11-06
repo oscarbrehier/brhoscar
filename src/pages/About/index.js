@@ -1,19 +1,25 @@
+import Landing from "../../components/Landing";
 import './style.css';
 import './phone-view.css';
 
 export default function About() {
 
+    function Main() {
+
+        let message = Landing('Full Stack Developer and Designer');
+        return message;
+
+    }
+
     return (
 
-        <div className='aContainer w-100 h-100 relative'>
-            <div className='aContainer__wrapper h-inherit flex align-center'>
-                <div className='catch uppercase w900'>
-                    want to know more?
-                </div>
-                <div>
-
-                </div>
-            </div>
+        // <div className='container w-100 h-auto relative'>
+        //     <div className='wrapper h-inherit flex align-center justify-between'>
+        //
+        //     </div>
+        // </div>
+        <div>
+            <Main/>
         </div>
 
     )

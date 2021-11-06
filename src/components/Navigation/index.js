@@ -26,7 +26,7 @@ export default function Navigation() {
                     </div>
                     <div className='navigation--right capitalize'>
                         <div className='navigation--hamburger flex align-center justify-center none'>
-                            <Hamburger toggled={isOpen} toggle={setOpen} size={20}/>
+                            <Hamburger toggled={isOpen} toggle={setOpen} size={20} rounded/>
                         </div>
                         <div className='navigation--links flex'>
                             <div>
@@ -42,7 +42,7 @@ export default function Navigation() {
                     </div>
                 </div>
                 <div className={ !isOpen ? "none" : null } style={{height: '92vh', width: '100%'}}>
-                    <div className='navigation--phone absolute h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
+                    <div className='navigation--phone fixed h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
                         <div className='navigation--phone--links h-auto w-auto'>
                             <div className="w-inherit flex justify-center">
                                 <Link to='/work'>work</Link>
