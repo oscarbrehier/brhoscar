@@ -1,5 +1,7 @@
 @import "../../styles/index.css";
 
-.about__about {
-    margin-top: 50vh;
+.about__about-me {
+    margin: 10vh 0;
+    font-size: 35px;
+    width: 55%;
 }

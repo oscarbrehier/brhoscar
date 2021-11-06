@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Homepage from "./pages/Homepage/index";
 import Projects from './pages/Projects';
 import About from "./pages/About";
-import Home from "./pages/Home";
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -15,9 +15,11 @@ function App() {
 
         <Router>
             <div className="App relative">
+
                 <Navigation/>
 
                 <Switch>
+
                     <Route path='/' exact>
                         <Homepage/>
                     </Route>
@@ -28,10 +30,9 @@ function App() {
                         <About/>
                     </Route>
                     <Route path='/contact'>
+                        <Contact/>
                     </Route>
-                    <Route path='/home'>
-                        <Home/>
-                    </Route>
+
                 </Switch>
 
                 <Footer/>

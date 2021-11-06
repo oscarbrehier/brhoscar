@@ -30,10 +30,10 @@ export default function Navigation() {
                         </div>
                         <div className='navigation--links flex'>
                             <div>
-                                <Link to='/work'>work</Link>
+                                <Link to='about'>about</Link>
                             </div>
                             <div>
-                                <Link to='about'>about</Link>
+                                <Link to='/work'>work</Link>
                             </div>
                             <div>
                                 <Link to='contact'>contact</Link>
@@ -45,10 +45,10 @@ export default function Navigation() {
                     <div className='navigation--phone fixed h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
                         <div className='navigation--phone--links h-auto w-auto'>
                             <div className="w-inherit flex justify-center">
-                                <Link to='/work'>work</Link>
+                                <Link to='about'>about</Link>
                             </div>
                             <div className="w-inherit flex justify-center">
-                                <Link to='about'>about</Link>
+                                <Link to='/work'>work</Link>
                             </div>
                             <div className="w-inherit flex justify-center">
                                 <Link to='contact'>contact</Link>

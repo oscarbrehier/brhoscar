@@ -6,4 +6,8 @@
 
 @media only screen and (max-width: 480px) {
 
+    .about__about-me {
+        width: 100%;
+    }
+
 }
