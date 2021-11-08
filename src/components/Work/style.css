@@ -1,0 +1,23 @@
+@import "../../styles/index.css";
+
+.work__container {
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+.work--type {
+    font-size: 20px;
+}
+
+.work__info {
+}
+
+.work__info--title {
+    font-size: 35px;
+}
+
+.work__info__description {
+    width: 60%;
+    font-size: 20px;
+    margin-top: 1vh;
+}

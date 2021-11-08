@@ -5,9 +5,10 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer/Footer";
 
 import Homepage from "./pages/Homepage/index";
-import Projects from './pages/Projects';
+import Work from './pages/Work';
 import About from "./pages/About";
 import Contact from './pages/Contact';
+import Error from './pages/404'
 
 function App() {
 
@@ -20,18 +21,11 @@ function App() {
 
                 <Switch>
 
-                    <Route path='/' exact>
-                        <Homepage/>
-                    </Route>
-                    <Route path='/projects'>
-                        <Projects/>
-                    </Route>
-                    <Route path='/about'>
-                        <About/>
-                    </Route>
-                    <Route path='/contact'>
-                        <Contact/>
-                    </Route>
+                    <Route path='/' component={Homepage} exact/>
+                    <Route path='/work' component={Work}/>
+                    <Route path='/about' component={About}/>
+                    {/*<Route path='/contact' component={Contact}/>*/}
+                    <Route component={Error}/>
 
                 </Switch>
 

@@ -39,7 +39,7 @@ export default function Homepage() {
                    </div>
                </div>
            </div>
-           <Email/>
+           <Email className='homepage__email'/>
            {/*<div className='separator'></div>*/}
        </div>
 

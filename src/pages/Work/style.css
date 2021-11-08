@@ -6,3 +6,8 @@
     /*grid-template-columns: repeat(2, 0fr);*/
     /*gap: 5vh;*/
 }
+
+.projects__container {
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}

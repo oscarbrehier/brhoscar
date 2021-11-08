@@ -2,6 +2,15 @@
 
 .about__about-me {
     margin: 10vh 0;
-    font-size: 35px;
+    font-size: 30px;
     width: 55%;
+}
+
+.about__small {
+    font-size: 20px;
+}
+
+.about__small--title,
+.about__small--elements {
+    flex-basis: 60%;
 }

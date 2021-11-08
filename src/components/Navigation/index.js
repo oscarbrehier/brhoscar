@@ -8,12 +8,9 @@ export default function Navigation() {
 
     const [isOpen, setOpen] = useState(false);
 
-    if(isOpen === false) {
-
-    }
-
-    if(isOpen === true) {
-
+    const handleClick = (e) => {
+        e.preventDefault();
+        setOpen(false);
     }
 
     return (
@@ -35,9 +32,9 @@ export default function Navigation() {
                             <div>
                                 <Link to='/work'>work</Link>
                             </div>
-                            <div>
-                                <Link to='contact'>contact</Link>
-                            </div>
+                            {/*<div>*/}
+                            {/*    <Link to='contact'>contact</Link>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>
@@ -45,14 +42,17 @@ export default function Navigation() {
                     <div className='navigation--phone fixed h-inherit w-inherit bRed capitalize flex column justify-center align-center'>
                         <div className='navigation--phone--links h-auto w-auto'>
                             <div className="w-inherit flex justify-center">
-                                <Link to='about'>about</Link>
+                                <Link to='/' onClick={handleClick}>Home</Link>
                             </div>
                             <div className="w-inherit flex justify-center">
-                                <Link to='/work'>work</Link>
+                                <Link to='/about' onClick={handleClick}>about</Link>
                             </div>
                             <div className="w-inherit flex justify-center">
-                                <Link to='contact'>contact</Link>
+                                <Link to='/work' onClick={handleClick}>work</Link>
                             </div>
+                            {/*<div className="w-inherit flex justify-center">*/}
+                            {/*    <Link to='contact' onClick={handleClick}>contact</Link>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

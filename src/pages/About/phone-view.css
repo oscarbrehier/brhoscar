@@ -1,6 +1,12 @@
 @media only screen and (max-width: 1000px) {
 
+    .about__small {
+        flex-direction: column;
+    }
 
+    .about__small > div:nth-child(2) {
+        margin-top: 2vh;
+    }
 
 }
 

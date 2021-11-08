@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1050px) {
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .work__container {
+        flex-direction: column;
+    }
+
+    .work__info {
+        margin-top: 2vh;
+    }
+
+}
+ 
