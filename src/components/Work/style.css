@@ -2,22 +2,20 @@
 
 .work__container {
     height: 20vh;
-    margin-bottom: 5vh;
 }
 
-.work--type {
-    font-size: 20px;
+.work--type,
+.work__description {
+    flex-basis: 50%;
 }
 
-.work__info {
+.work__description--title {
+    font-size: 45px;
 }
 
-.work__info--title {
-    font-size: 35px;
-}
-
-.work__info__description {
+.work__description--description {
+    margin-top: 5px;
     width: 60%;
-    font-size: 20px;
-    margin-top: 1vh;
+    font-size: 18px;
+    line-height: 1.55;
 }

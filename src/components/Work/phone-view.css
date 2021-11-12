@@ -7,11 +7,17 @@
 @media only screen and (max-width: 480px) {
 
     .work__container {
+        height: auto;
         flex-direction: column;
+        margin-bottom: 5vh;
     }
 
-    .work__info {
-        margin-top: 2vh;
+    .work__description--title {
+        font-size: 35px;
+    }
+
+    .work__description--description {
+        width: 90%;
     }
 
 }
